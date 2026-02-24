@@ -1,0 +1,29 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Simple REST API for task management with validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "NODE_ENV=test jest --verbose --coverage",
+    "test:watch": "NODE_ENV=test jest --watch"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "tasks",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
